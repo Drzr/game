@@ -1,0 +1,796 @@
+fileFormatVersion: 2
+guid: e32954ebc45ac5c47b4c5a1cf7325550
+timeCreated: 1523036875
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: final main charicter sprite_0
+    21300002: final main charicter sprite_1
+    21300004: final main charicter sprite_2walk
+    21300006: final main charicter sprite_3
+    21300008: final main charicter sprite_4jump
+    21300010: final main charicter sprite_5
+    21300012: final main charicter sprite_6
+    21300014: final main charicter sprite_7damage
+    21300016: final main charicter sprite_8
+    21300018: final main charicter sprite_9
+    21300020: final main charicter sprite_10
+    21300022: final main charicter sprite_11
+    21300024: final main charicter sprite_12
+    21300026: final main charicter sprite_13walk
+    21300028: final main charicter sprite_14
+    21300030: final main charicter sprite_15jump
+    21300032: final main charicter sprite_16
+    21300034: final main charicter sprite_17
+    21300036: final main charicter sprite_18damage
+    21300038: final main charicter sprite_19
+    21300040: final main charicter sprite_20
+    21300042: final main charicter sprite_21
+    21300044: final main charicter sprite_22
+    21300046: final main charicter sprite_23
+    21300048: final main charicter sprite_24walk
+    21300050: final main charicter sprite_25
+    21300052: final main charicter sprite_26jump
+    21300054: final main charicter sprite_27
+    21300056: final main charicter sprite_28
+    21300058: final main charicter sprite_29damage
+    21300060: final main charicter sprite_30
+    21300062: final main charicter sprite_31
+    21300064: final main charicter sprite_32
+    21300066: final main charicter sprite_33
+    21300068: final main charicter sprite_34
+    21300070: final main charicter sprite_35walknormal
+    21300072: final main charicter sprite_36
+    21300074: final main charicter sprite_37jumpnormal
+    21300076: final main charicter sprite_38
+    21300078: final main charicter sprite_39
+    21300080: final main charicter sprite_40damagenormal
+    21300082: final main charicter sprite_41
+    21300084: final main charicter sprite_42
+    21300086: final main charicter sprite_43
+    21300088: final main charicter sprite_44
+    21300090: final main charicter sprite_45walknormal
+    21300092: final main charicter sprite_46
+    21300094: final main charicter sprite_47jumpnormal
+    21300096: final main charicter sprite_48
+    21300098: final main charicter sprite_49
+    21300100: final main charicter sprite_50
+    21300102: final main charicter sprite_51damagenormalweak
+    21300104: final main charicter sprite_52
+    21300106: final main charicter sprite_53
+    21300108: final main charicter sprite_54
+    21300110: final main charicter sprite_55
+    21300112: final main charicter sprite_56walknormal
+    21300114: final main charicter sprite_63jumpnormal
+    21300116: final main charicter sprite_58
+    21300118: final main charicter sprite_64
+    21300120: final main charicter sprite_60
+    21300122: final main charicter sprite_65
+    21300124: final main charicter sprite_62
+    21300126: final main charicter sprite_63
+    21300128: final main charicter sprite_64
+    21300130: final main charicter sprite_65
+    21300132: final main charicter sprite_66
+    21300134: final main charicter sprite_67damagedeath
+    21300136: final main charicter sprite_68
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: final main charicter sprite_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1667
+        width: 115
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_1
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1667
+        width: 115
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_2walk
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1667
+        width: 115
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_3
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1667
+        width: 115
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_4jump
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 1667
+        width: 115
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_6
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1667
+        width: 115
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_7damage
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 1664
+        width: 115
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_11
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1334
+        width: 104
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_12
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1334
+        width: 104
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_13walk
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1334
+        width: 104
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_14
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1334
+        width: 104
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_15jump
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 1334
+        width: 104
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_17
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 1334
+        width: 104
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_18damage
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 1333
+        width: 104
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_22
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1000
+        width: 104
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1000
+        width: 104
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_24walk
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1000
+        width: 104
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_25
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1000
+        width: 105
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_26jump
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 1001
+        width: 105
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_28
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1000
+        width: 104
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_29damage
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 1000
+        width: 104
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_33
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 667
+        width: 112
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_34
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 667
+        width: 111
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_35walknormal
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 667
+        width: 111
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_36
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 667
+        width: 107
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_37jumpnormal
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 666
+        width: 115
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_39
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 667
+        width: 112
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_40damagenormal
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 667
+        width: 112
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_43
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 334
+        width: 92
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_44
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 334
+        width: 91
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_45walknormal
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 333
+        width: 110
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_46
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 333
+        width: 87
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_47jumpnormal
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 333
+        width: 95
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_49
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 334
+        width: 96
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_50
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 333
+        width: 92
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_51damagenormalweak
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 333
+        width: 92
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_54
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 0
+        width: 105
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_55
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 0
+        width: 105
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_56walknormal
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 0
+        width: 105
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_63jumpnormal
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 0
+        width: 114
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_64
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 0
+        width: 105
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_65
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 0
+        width: 105
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_62
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 0
+        width: 114
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_66
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 0
+        width: 119
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: final main charicter sprite_67damagedeath
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 0
+        width: 119
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

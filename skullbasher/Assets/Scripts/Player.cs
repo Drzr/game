@@ -70,9 +70,8 @@ public class Player : MonoBehaviour {
 			anim.SetBool ("isFalling", true);
 
 		}
-		if (Input.GetAxisRaw ("Vertical")<0){
-			anim.SetBool ("isCrouch", true);
-		}
+		//if (Input.GetAxisRaw ("Vertical")<0){
+	//	}
 
 	}
 

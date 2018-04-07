@@ -51,10 +51,12 @@ public class Player : MonoBehaviour {
 	{
 		if (dirX == 0) {
 			anim.SetBool ("isWalking", false);
+		
 		}
 
 		if (rb.velocity.y == 0) {
 			anim.SetBool ("isJumping", false);
+			anim.SetBool ("isFalling", false);
 		}
 
 		if (Mathf.Abs(dirX) == 5 && rb.velocity.y == 0)
@@ -65,7 +67,13 @@ public class Player : MonoBehaviour {
 		
 		if (rb.velocity.y < 0) {
 			anim.SetBool ("isJumping", false);
+			anim.SetBool ("isFalling", true);
+
 		}
+		if (Input.GetAxisRaw ("Vertical")<0){
+			anim.SetBool ("isCrouch", true);
+		}
+
 	}
 
 	void CheckWhereToFace()

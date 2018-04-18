@@ -7,7 +7,7 @@ public class Player : MonoBehaviour {
 	Rigidbody2D rb;
 	Animator anim;
 	float dirX, moveSpeed = 5f;
-	int  healthPoints = 3;
+	int  healthPoints = 3000;
 	bool isDamage, isDead;
 	bool facingRight = true;
 	Vector3 localScale;
@@ -91,11 +91,13 @@ public class Player : MonoBehaviour {
 
 	void OnTriggerEnter2D (Collider2D col)
 	{
-		if (col.gameObject.name.Equals ("Enemy")) {
-			healthPoints -= 1;
+		if (col.gameObject.CompareTag("Enemy")) {
+		    
+			col.gameObject.SetActive(false);
 		}
 
 		if (col.gameObject.name.Equals ("Enemy") && healthPoints > 0) {
+			healthPoints -= 1;
 			anim.SetTrigger ("isDamage");
 			StartCoroutine ("Hurt");
 		} else {
@@ -115,7 +117,7 @@ public class Player : MonoBehaviour {
 		else
 			rb.AddForce (new Vector2(200f, 200f));
 		
-		yield return new WaitForSeconds (0.5f);
+		yield return new WaitForSeconds (2.5f);
 
 		isDamage = false;
 	}

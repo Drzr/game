@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour {
 
@@ -12,11 +13,19 @@ public class Player : MonoBehaviour {
 	bool facingRight = true;
 	Vector3 localScale;
 
+	public float speed;
+	public Text countText;
+	public Text winText;
+	private int count;
+
 	// Use this for initialization
 	void Start () {
 		rb = GetComponent<Rigidbody2D> ();
 		anim = GetComponent<Animator> ();
 		localScale = transform.localScale;
+		count = 0;
+		SetCountText ();
+		winText.text = "";
 	}
 	
 	// Update is called once per frame
@@ -94,17 +103,21 @@ public class Player : MonoBehaviour {
 		if (col.gameObject.CompareTag("Enemy")) {
 		    
 			col.gameObject.SetActive(false);
+			count = count + 1;
+			SetCountText ();
+
 		}
 
 		if (col.gameObject.name.Equals ("Enemy") && healthPoints > 0) {
 			healthPoints -= 1;
 			anim.SetTrigger ("isDamage");
 			StartCoroutine ("Hurt");
-		} else {
+
+		} /*else {
 			dirX = 0;
 			isDead = true;
 			anim.SetTrigger ("isDead");
-		}
+		}*/
 	}
 
 	IEnumerator Hurt()
@@ -120,6 +133,14 @@ public class Player : MonoBehaviour {
 		yield return new WaitForSeconds (2.5f);
 
 		isDamage = false;
+	}
+	void SetCountText ()
+	{
+		countText.text = "Points: " + count.ToString ();// Points determine strength oi (of intoxication)
+		if (count >= 12)
+		{
+			winText.text = "You Win!";
+		}
 	}
 
 }

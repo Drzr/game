@@ -8,7 +8,6 @@ public class Player : MonoBehaviour {
 	Rigidbody2D rb;
 	Animator anim;
 	float dirX, moveSpeed = 5f;
-	int  healthPoints = 3000;
 	bool isDamage, isDead;
 	bool facingRight = true;
 	Vector3 localScale;
@@ -16,7 +15,16 @@ public class Player : MonoBehaviour {
 	public float speed;
 	public Text countText;
 	public Text winText;
+	public Text healthText;
+	private int healthPoints;
 	private int count;
+
+
+	public AudioClip crashSoft;
+	public AudioClip crashHard;
+
+
+	private AudioSource source;
 
 	// Use this for initialization
 	void Start () {
@@ -24,8 +32,12 @@ public class Player : MonoBehaviour {
 		anim = GetComponent<Animator> ();
 		localScale = transform.localScale;
 		count = 0;
+		healthPoints = 10;
 		SetCountText ();
+		SetHealthText ();
 		winText.text = "";
+
+		isDead = false;
 	}
 	
 	// Update is called once per frame
@@ -79,6 +91,9 @@ public class Player : MonoBehaviour {
 			anim.SetBool ("isFalling", true);
 
 		}
+		if (isDamage == false) {
+			anim.SetBool ("isDamage", false);
+		}
 		//if (Input.GetAxisRaw ("Vertical")<0){
 	//	}
 
@@ -100,20 +115,27 @@ public class Player : MonoBehaviour {
 
 	void OnTriggerEnter2D (Collider2D col)
 	{
-		if (col.gameObject.CompareTag("Enemy")) {
-		    
+		
+
+		if (col.gameObject.CompareTag("Points")) {
+
 			col.gameObject.SetActive(false);
 			count = count + 1;
 			SetCountText ();
 
 		}
 
-		if (col.gameObject.name.Equals ("Enemy") && healthPoints > 0) {
+		if (col.gameObject.CompareTag ("Enemy")) {
 			healthPoints -= 1;
+			SetHealthText ();
 			anim.SetTrigger ("isDamage");
 			StartCoroutine ("Hurt");
 
-		} /*else {
+
+
+		}
+
+		/*else {
 			dirX = 0;
 			isDead = true;
 			anim.SetTrigger ("isDead");
@@ -122,6 +144,7 @@ public class Player : MonoBehaviour {
 
 	IEnumerator Hurt()
 	{
+		
 		isDamage = true;
 		rb.velocity = Vector2.zero;
 
@@ -141,6 +164,11 @@ public class Player : MonoBehaviour {
 		{
 			winText.text = "You Win!";
 		}
+	}
+	void SetHealthText ()
+	{
+
+		healthText.text = "Health: " + healthPoints.ToString ();
 	}
 
 }
